@@ -11,5 +11,14 @@ function agregarAmigo() {
     arrayAmigos.push(NombreAmigo);
     console.log(arrayAmigos);
 
+    crearListaAmigos(NombreAmigo);
+
     document.querySelector('#amigo').value = '';
+}
+
+function crearListaAmigos(NombreAmigo) {
+    let listaAmigos = document.getElementById("listaAmigos");
+    let nuevoElemento = document.createElement("li");
+    nuevoElemento.innerHTML = NombreAmigo;
+    listaAmigos.appendChild(nuevoElemento);
 }

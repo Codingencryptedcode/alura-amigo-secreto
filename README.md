@@ -7,6 +7,7 @@ Este proyecto es una implementación de conceptos base de JavaScript y HTML en e
 ## Funcionalidades Implementadas:
 
 - **Agregar Amigos**: Los usuarios pueden ingresar nombres de amigos en un campo de texto y agregarlos a un array.
+- **Crear Lista de Amigos**: Cada vez que se agregue un amigo este ser adjuntado en una lista en la parte inferior.
 
 ## Estructura del Código:
 
@@ -15,6 +16,8 @@ El código principal del proyecto se encuentra en el archivo `app.js` y se organ
 - **Variables Globales**:Creación de `arrayAmigos` para almacenar los nombres de los amigos.
 - **Funciones**:
   - `agregarAmigo()`: Agrega un nuevo nombre a la lista de amigos.
+  - `crearListaAmigos(NombreAmigo)`: Actualiza la lista de amigos en el DOM.
+
 
 ## Cómo Ejecutar el Proyecto:
 
