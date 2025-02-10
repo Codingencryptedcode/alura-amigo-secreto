@@ -17,7 +17,7 @@ El código principal del proyecto se encuentra en el archivo `app.js` y se organ
 - **Funciones**:
   - `agregarAmigo()`: Agrega un nuevo nombre a la lista de amigos.
   - `crearListaAmigos(NombreAmigo)`: Actualiza la lista de amigos en el DOM.
-
+  - `detectarEnter()`: Permite agregar un amigo presionando la tecla "Enter" o haciendo click en el botón añadir.
 
 ## Cómo Ejecutar el Proyecto:
 

@@ -22,3 +22,13 @@ function crearListaAmigos(NombreAmigo) {
     nuevoElemento.innerHTML = NombreAmigo;
     listaAmigos.appendChild(nuevoElemento);
 }
+
+function detectarEnter() {
+    document.getElementById('amigo').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            agregarAmigo();
+        }
+    });
+}
+
+detectarEnter();
