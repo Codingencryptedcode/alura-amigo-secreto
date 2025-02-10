@@ -8,6 +8,7 @@ Este proyecto es una implementación de conceptos base de JavaScript y HTML en e
 
 - **Agregar Amigos**: Los usuarios pueden ingresar nombres de amigos en un campo de texto y agregarlos a un array.
 - **Crear Lista de Amigos**: Cada vez que se agregue un amigo este ser adjuntado en una lista en la parte inferior.
+- **Sortear Amigo Secreto**: Una vez que se han agregado los nombres, los usuarios pueden sortear aleatoriamente un amigo secreto.
 
 ## Estructura del Código:
 
@@ -18,6 +19,7 @@ El código principal del proyecto se encuentra en el archivo `app.js` y se organ
   - `agregarAmigo()`: Agrega un nuevo nombre a la lista de amigos.
   - `crearListaAmigos(NombreAmigo)`: Actualiza la lista de amigos en el DOM.
   - `detectarEnter()`: Permite agregar un amigo presionando la tecla "Enter" o haciendo click en el botón añadir.
+  - `sortearAmigo()`: Sortea aleatoriamente un amigo secreto de la lista de amigos.
 
 ## Cómo Ejecutar el Proyecto:
 
