@@ -8,6 +8,10 @@ function agregarAmigo() {
         return;
     }
 
+    if (amigoGanador) {
+        reiniciarJuego();
+    }
+
     arrayAmigos.push(NombreAmigo);
     console.log(arrayAmigos);
 
@@ -35,6 +39,13 @@ function sortearAmigo() {
     document.querySelector('#listaAmigos').innerHTML = '';
     amigoGanador = arrayAmigos[Math.floor(Math.random() * arrayAmigos.length)];
     document.getElementById("resultado").innerHTML = "El amigo secreto sorteado es: " + amigoGanador;
+}
+
+function reiniciarJuego() {
+    arrayAmigos = [];
+    amigoGanador = null;
+    document.getElementById("listaAmigos").innerHTML = '';
+    document.getElementById("resultado").innerHTML = '';
 }
 
 detectarEnter();
