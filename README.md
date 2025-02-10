@@ -2,7 +2,7 @@
 
 Este proyecto es una implementación de conceptos base de JavaScript y HTML en el juego del "Amigo Secreto" en donde los usuarios agregar nombres de amigos a una lista y luego sortear aleatoriamente un "amigo secreto" de entre los nombres ingresados.
 
-<h2> Estado del proyecto: En desarrollo. </h2> 
+<h2> Estado del proyecto: Concluido. </h2> 
 
 ## Funcionalidades a Implementadas:
 
